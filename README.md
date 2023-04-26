@@ -1,7 +1,7 @@
 # MorseFox
 Morse Fox
 
-This shell script is designed to turn an amateur radio transceiver and a Raspberry Pi into a RF Fox Huunt 'Rabbit'/beacon.
+This shell script is designed to turn an amateur radio transceiver and a Raspberry Pi into a RF Fox Hunt 'Rabbit'/beacon.
 
 To send the CW (using F2A), I use the morse application (https://gitlab.com/esr/morse-classic) to generate the Morse audio within the Terminal, and use xmlrpc control of Flrig to
 
