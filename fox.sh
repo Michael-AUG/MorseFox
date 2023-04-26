@@ -22,13 +22,13 @@ else
     echo "file does not exist."    # if it doesn't
 fi
 
-xmlrpc localhost:12345 rig.set_mode FM-D   # accesses the rig through Flrig and sets mode to FM-D (to receive soundcard audio)
 xmlrpc localhost:12345 rig.set_power i/$power   # sets power to user's choice
 
 for i in $(seq 1 $iterations)
 
 do
 
+xmlrpc localhost:12345 rig.set_mode FM-D   # accesses the rig through Flrig and sets mode to FM-D (to receive soundcard audio)
 xmlrpc localhost:12345 rig.set_ptt i/1   # keys rig's PTT
 morse -w $speed -F 13 -a < fox  # runs morse app with chosen variables
 xmlrpc localhost:12345 rig.set_ptt i/0   # unkeys rig's PTT
