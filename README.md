@@ -23,6 +23,6 @@ If you find the power control command is failing, be sure to un-check the 'Pwr' 
 
 If you've got any questions or queries, please contact me. I am not the writer of the 'morse' software so please direct any 'morse' related queries directly to the team there. This script is a real bodge or fudge, and I don't claim to be overly good at coding. However, if it helps you, please let me know!
 
-73 and happy Morsing!
+73 and happy Hunting!
 
 Michael Topple GM5AUG email: gm5aug@topple.scot
